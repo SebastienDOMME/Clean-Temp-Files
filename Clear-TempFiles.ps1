@@ -433,6 +433,7 @@ Function Cleanup {
     Stop-Transcript
 }
 
+}
 # Listing all files in C:\Temp\* recursively, using Force parameter displays hidden files.
 $TempItems = Get-ChildItem -Path "C:\Temp\*" -Recurse -Force
 if ($TempItems.count -gt 1) {
